@@ -16,8 +16,8 @@
  */
 package com.alibaba.boot.dubbo.context.event;
 
-import com.alibaba.dubbo.common.utils.ConfigUtils;
-import com.alibaba.dubbo.config.AbstractConfig;
+import org.apache.dubbo.common.utils.ConfigUtils;
+import org.apache.dubbo.config.AbstractConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;

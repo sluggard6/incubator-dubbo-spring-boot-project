@@ -16,9 +16,9 @@
  */
 package com.alibaba.boot.dubbo.autoconfigure;
 
-import com.alibaba.dubbo.config.AbstractConfig;
-import com.alibaba.dubbo.config.spring.context.properties.AbstractDubboConfigBinder;
-import com.alibaba.dubbo.config.spring.context.properties.DubboConfigBinder;
+import org.apache.dubbo.config.AbstractConfig;
+import org.apache.dubbo.config.spring.context.properties.AbstractDubboConfigBinder;
+import org.apache.dubbo.config.spring.context.properties.DubboConfigBinder;
 import org.springframework.boot.context.properties.bind.BindHandler;
 import org.springframework.boot.context.properties.bind.Bindable;
 import org.springframework.boot.context.properties.bind.Binder;

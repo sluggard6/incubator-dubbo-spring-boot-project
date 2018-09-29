@@ -16,8 +16,8 @@
  */
 package com.alibaba.boot.dubbo.actuate.endpoint;
 
-import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.dubbo.config.spring.ServiceBean;
+import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.spring.ServiceBean;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
 

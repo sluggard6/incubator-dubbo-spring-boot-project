@@ -27,7 +27,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Map;
 
-import static com.alibaba.dubbo.common.Version.getVersion;
+import static org.apache.dubbo.common.Version.getVersion;
 
 /**
  * {@link DubboEndpoint} Test

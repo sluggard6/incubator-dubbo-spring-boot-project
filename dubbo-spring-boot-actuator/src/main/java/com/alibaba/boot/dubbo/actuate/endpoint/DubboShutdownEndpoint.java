@@ -16,9 +16,9 @@
  */
 package com.alibaba.boot.dubbo.actuate.endpoint;
 
-import com.alibaba.dubbo.config.ProtocolConfig;
-import com.alibaba.dubbo.config.spring.ServiceBean;
-import com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
+import org.apache.dubbo.config.ProtocolConfig;
+import org.apache.dubbo.config.spring.ServiceBean;
+import org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.WriteOperation;
 
@@ -26,7 +26,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistries;
+import static org.apache.dubbo.registry.support.AbstractRegistryFactory.getRegistries;
 
 /**
  * Dubbo Shutdown

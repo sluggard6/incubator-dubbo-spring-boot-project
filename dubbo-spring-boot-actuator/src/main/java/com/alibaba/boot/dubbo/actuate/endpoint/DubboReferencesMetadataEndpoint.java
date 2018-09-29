@@ -16,9 +16,9 @@
  */
 package com.alibaba.boot.dubbo.actuate.endpoint;
 
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.spring.ReferenceBean;
-import com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
+import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.spring.ReferenceBean;
+import org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
 import org.springframework.beans.factory.annotation.InjectionMetadata;
 import org.springframework.boot.actuate.endpoint.annotation.Endpoint;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;

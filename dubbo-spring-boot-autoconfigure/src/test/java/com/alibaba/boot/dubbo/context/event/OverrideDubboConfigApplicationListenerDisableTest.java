@@ -16,7 +16,7 @@
  */
 package com.alibaba.boot.dubbo.context.event;
 
-import com.alibaba.dubbo.common.utils.ConfigUtils;
+import org.apache.dubbo.common.utils.ConfigUtils;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

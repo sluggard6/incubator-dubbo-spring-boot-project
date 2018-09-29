@@ -16,7 +16,7 @@
  */
 package com.alibaba.boot.dubbo.context.event;
 
-import com.alibaba.dubbo.common.Version;
+import org.apache.dubbo.common.Version;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
@@ -25,7 +25,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.core.annotation.Order;
 
 import static com.alibaba.boot.dubbo.util.DubboUtils.*;
-import static com.alibaba.dubbo.qos.server.DubboLogo.dubbo;
+import static org.apache.dubbo.qos.server.DubboLogo.dubbo;
 
 /**
  * Dubbo Welcome Logo {@link ApplicationListener}

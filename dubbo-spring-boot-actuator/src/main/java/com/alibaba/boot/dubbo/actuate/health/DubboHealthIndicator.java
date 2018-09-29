@@ -16,10 +16,10 @@
  */
 package com.alibaba.boot.dubbo.actuate.health;
 
-import com.alibaba.dubbo.common.extension.ExtensionLoader;
-import com.alibaba.dubbo.common.status.StatusChecker;
-import com.alibaba.dubbo.config.ProtocolConfig;
-import com.alibaba.dubbo.config.ProviderConfig;
+import org.apache.dubbo.common.extension.ExtensionLoader;
+import org.apache.dubbo.common.status.StatusChecker;
+import org.apache.dubbo.config.ProtocolConfig;
+import org.apache.dubbo.config.ProviderConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.AbstractHealthIndicator;
 import org.springframework.boot.actuate.health.Health;
@@ -32,7 +32,7 @@ import java.util.Map;
 import java.util.Set;
 
 import static com.alibaba.boot.dubbo.actuate.health.DubboHealthIndicatorProperties.PREFIX;
-import static com.alibaba.dubbo.common.extension.ExtensionLoader.getExtensionLoader;
+import static org.apache.dubbo.common.extension.ExtensionLoader.getExtensionLoader;
 
 /**
  * Dubbo {@link HealthIndicator}
@@ -74,9 +74,9 @@ public class DubboHealthIndicator extends AbstractHealthIndicator {
 
             StatusChecker checker = extensionLoader.getExtension(statusCheckerName);
 
-            com.alibaba.dubbo.common.status.Status status = checker.check();
+            org.apache.dubbo.common.status.Status status = checker.check();
 
-            com.alibaba.dubbo.common.status.Status.Level level = status.getLevel();
+            org.apache.dubbo.common.status.Status.Level level = status.getLevel();
 
             if (!hasError && level.equals(com.alibaba.dubbo.common.status.Status.Level.ERROR)) {
                 hasError = true;

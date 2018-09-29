@@ -16,16 +16,16 @@
  */
 package com.alibaba.boot.dubbo.autoconfigure;
 
-import com.alibaba.dubbo.config.AbstractConfig;
-import com.alibaba.dubbo.config.ApplicationConfig;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
-import com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor;
-import com.alibaba.dubbo.config.spring.context.annotation.DubboComponentScan;
-import com.alibaba.dubbo.config.spring.context.annotation.DubboConfigConfiguration;
-import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
-import com.alibaba.dubbo.config.spring.context.annotation.EnableDubboConfig;
+import org.apache.dubbo.config.AbstractConfig;
+import org.apache.dubbo.config.ApplicationConfig;
+import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
+import org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor;
+import org.apache.dubbo.config.spring.context.annotation.DubboComponentScan;
+import org.apache.dubbo.config.spring.context.annotation.DubboConfigConfiguration;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

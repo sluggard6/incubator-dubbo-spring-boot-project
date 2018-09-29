@@ -16,7 +16,7 @@
  */
 package com.alibaba.boot.dubbo.actuate.health;
 
-import com.alibaba.dubbo.config.spring.context.annotation.EnableDubboConfig;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
